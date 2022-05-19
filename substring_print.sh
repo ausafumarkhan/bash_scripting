@@ -5,7 +5,7 @@ read str
 
 echo "${str:0}" # starts the string from first letter
 echo "${str:2:6}" # Starts from 3rd and ends at 6th letter
-echo "${str:3:3}" # It prints letters by skipping 3 letters bt=etween them
+echo "${str:3:3}" # It prints letters by skipping 3 letters between them
 
 echo "${str: -1}" # prints 1 letter from ending
 echo "${str: -5}" # prints 5 letters from ending
