@@ -4,7 +4,12 @@
 
 #name="gaurav"  uncomment to give value to variable 
 
-echo "${name:?"please set variable value"}"
+#: "${name:?"please set variable value"}"
 
+# Below script is used for command line
+
+: "${1:?"Please set variable value."}"
+
+echo "I am here"
 
 
