@@ -1,5 +1,6 @@
 #!/bin/bash
-
+: ' This is multiline command
+'
 a=5
 b=6
 
